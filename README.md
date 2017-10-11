@@ -1,21 +1,20 @@
 # namecreator
 
-Ett litet program som läser in användare, förnamn och efternam och utifrån detta skapar unika användarnamn.
+Program som läser in användare, förnamn och efternam och då skapas det användarnamn.
 
-Användarnamn läses in från en fil users.csv, resultatet sparas i en csvfil usernicks.csv i formen
 
     förnamn, efternamn, användarnamn
 
 ## användarnamn
 
-Användarnamn skapas utifrån algoritmen 2 första bokstäverna från förnamn och 5 första bokstäverna från efternamn.
+Användarnamn skapas 3 första bokstäver från förnamnet och 3 första från efternamnet.
 
 ex 
 
-    bo, johansson
+    Ahmed, Hameedi
     
 genererar 
 
-    bo, johansson, bojohan
+    Ahmed, hameedi, ahmham
 
 
